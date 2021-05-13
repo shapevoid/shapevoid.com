@@ -234,7 +234,27 @@
 		});
 	};	
 
-  
+	var initHeaderBkg = function() {
+		VANTA.NET({
+			el: ".home-content",
+			mouseControls: true,
+			touchControls: true,
+			gyroControls: false,
+			minHeight: 200.00,
+			minWidth: 200.00,
+			scale: 1.00,
+			scaleMobile: 1.00,
+			color: 0x3ffff3,
+			backgroundColor: 0x111111,
+			points: 18.00,
+			maxDistance: 17.00,
+			spacing: 19.00,
+			showDots: true
+		  })
+	};
+
+  	// green #39b54a
+	  
    /* Initialize
 	* ------------------------------------------------------ */
 	(function ssInit() {
@@ -249,6 +269,9 @@
 		ssAlertBoxes();
 		ssAOS();
 		ssBackToTop();
+		initHeaderBkg();
+
+		
 
 		// to use the mailchimp form, uncomment the 
 		// function call ssAjaxChimp() below:
