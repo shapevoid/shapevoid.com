@@ -576,7 +576,7 @@ textarea {
     width: 75%;
   }
   .tab-full {
-    width: 100%;
+    width: 100% !important;
   }
 }
 
