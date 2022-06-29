@@ -1408,8 +1408,8 @@
  
  #home {
    width: 100%;
-   height: 786px;
-   min-height: 786px;
+   /* height: 786px;
+   min-height: 786px; */
    background-color: transparent;
    position: relative;
    display: table;
@@ -1497,7 +1497,7 @@
   letter-spacing: -.05rem;
   line-height: 1.269;
   color: #3ffff3;
-  margin-bottom: 9rem;
+  /* margin-bottom: 9rem; */
   text-align: left;
 }
 
@@ -1712,7 +1712,7 @@
      vertical-align: middle;
    }
    .home-content-left {
-     padding: 18rem 0 12rem 40px;
+     padding: 18rem 0;
    }
    .home-content-left h3 {
      font-size: 1.5rem;
@@ -1741,7 +1741,8 @@
  @media only screen and (max-width: 1024px) {
    .home-content-left {
      width: 60%;
-     padding: 18rem 6rem 12rem 4rem;
+     /* padding: 18rem 6rem; */
+     /* padding: 18rem 6rem 12rem 4rem; */
    }
    .home-content-left h3 {
      font-size: 1.5rem;
@@ -1772,7 +1773,7 @@
    .home-content-left {
      width: 94%;
      position: static;
-     padding: 15rem 6rem 366px;
+     padding: 15rem 6rem 0 6rem;
      margin: 0 auto;
    }
    .home-content-left h1 {
@@ -1807,7 +1808,7 @@
  
  @media only screen and (max-width: 600px) {
    .home-content-left {
-     padding: 12rem 6rem 366px;
+     padding: 12rem 6rem;
    }
    .home-content-left h1 {
      font-size: 3.3rem;
@@ -1832,7 +1833,7 @@
      display: none;
    }
    .home-content-left {
-     padding: 12rem 2.5rem 366px;
+     padding: 12rem 2.5rem;
      width: 100%;
    }
    .home-content-left h1 {
@@ -1842,7 +1843,7 @@
  
  @media only screen and (max-width: 400px) {
    .home-content-left {
-     padding: 12rem 0 300px;
+     padding: 12rem 0 0 0;
    }
    .home-content-left .button.stroke {
      margin: 0 0 1.2rem 0;
@@ -2646,6 +2647,10 @@
    font-size: 1.5rem;
    line-height: 2.7rem;
    color: rgba(255, 255, 255, 0.25);
+ }
+
+ footer  p {
+  font-size: 1em;
  }
  
  footer a,
