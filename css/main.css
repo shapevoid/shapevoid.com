@@ -1936,6 +1936,10 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
     width: 320px;
     margin-bottom: -298px;
   }
+
+  #fade {
+    display: none !important;
+  }
 }
 
 
@@ -3079,6 +3083,7 @@ footer ul a:visited {
   /* border: 1px solid red; */
   position: absolute;
   margin-top: -100px;
+  display: block;
 }
 
 .vanta-canvas {
